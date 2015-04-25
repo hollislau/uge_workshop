@@ -1,0 +1,89 @@
+   48  ls
+   49  pwd
+   50  env
+   51  clear
+   52  pwd
+   53  env
+   54  pwd
+   55  cd /
+   56  pwd
+   57  cd /
+   58  ls
+   59  pwd
+   60  ls -t
+   61  ls -l
+   62  ls -lt
+   63  ls -rt
+   64  ls -t
+   65  ls -rtl
+   66  ls -tl
+   67  man ls
+   68  ls -m
+   69  ls -lm
+   70  ls -am
+   71  ls -ram
+   72  ls -o
+   73  cd
+   74  cd /tmp/
+   75  mkdir my\ folder
+   76  ls
+   77  cd my folder
+   78  cd my\ folder
+   79  cd
+   80  ls
+   81  ls -l
+   82  cd Desktop
+   83  pwd
+   84  ls
+   85  cd
+   86  cd Documents
+   87  ls
+   88  cd ..
+   89  ls -a
+   90  cd .mozilla
+   91  ls
+   92  cd
+   93  cd .mozilla\extensions
+   94  cd .mozilla/extensions
+   95  ls
+   96  ls -a
+   97  cd ..
+   98  cd extensions
+   99  cd ../..
+  100  cd .mozilla/extansions
+  101  cd .mozilla/extensions
+  102  cd ../firefox
+  103  cd /~/.mozilla/extensions
+  104  cd ~/.mozilla/extensions
+  105  cd ../../Desktop
+  106  cd
+  107  cd Desktop
+  108  cd ~/.mozilla/extensions/.
+  109  ls
+  110  ls -a
+  111  cd .
+  112  ls
+  113  cd
+  114  cd Desktop
+  115  ls ~
+  116  cd
+  117  ls ~/.mozilla
+  118  ls /
+  119  ls /home
+  120  clear
+  121  ls
+  122  cd Deskto
+  123  cd Desktop
+  124  ls x
+  125  ls .
+  126  ls ...
+  127  ls ../.
+  128  ls ../..
+  129  ls ../.
+  130  cd
+  131  history
+  132  history 10
+  133  history | less
+  134  ls
+  135  history > /Documents/moving_around.txt (didn't work because specified absolute path without home directory)
+  136  history > Documents/moving_around.txt (worked because correct relative path specified)
