@@ -1,0 +1,4 @@
+In Git, HEAD refers to the point/branch you are currently looking at
+The command git branch "name" creates a branch "name"
+The command git checkout "name" switches to branch "name"
+-u means you don't have to type your remote and branch again before pushing
