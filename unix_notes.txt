@@ -87,3 +87,4 @@
   134  ls
   135  history > /Documents/moving_around.txt (didn't work because specified absolute path without home directory)
   136  history > Documents/moving_around.txt (worked because correct relative path specified)
+hidden files being with a .
