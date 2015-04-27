@@ -1,0 +1,91 @@
+  180  mkdir CodeFellows
+  181  ls
+  182* mv  uge_workshop CodeFellows/uge_workshop
+  183  man mv
+  184  mv -t uge_workshop/ CodeFellows/
+  185  ls
+  186  cd uge_workshop/
+  187  ls
+  188  ls -a
+  189  cd Code
+  190  cd CodeFellows/
+  191  ls
+  192  ls -a
+  193  cd
+  194  git status
+  195  cd uge_workshop/
+  196  git status
+  197  git log
+  198  clear
+  199  ls
+  200  man mv
+  201  rm -r CodeFellows/
+  202  ls
+  203  ls -a
+  204  cd
+  205  mv uge_workshop/ CodeFellows/uge_workshop
+  206  mkdir CodeFellows
+  207  ls
+  208  mv -t CodeFellows/ uge_workshop/
+  209  ls
+  210  ls -a
+  211  ls
+  212  cd CodeFellows/
+  213  ls
+  214  cd uge_workshop/
+  215  ls
+  216  ls -a
+  217  git status
+  218  git log
+  219  cd ..
+  220  clear
+  221  ls
+  222  ls -a
+  223  clear
+  224  git clone https://github.com/hollislau/sea-w27-uge.git
+  225  ls
+  226  cd sea-w27-uge/
+  227  ls
+  228  ls -a
+  229  git remote
+  230  cd ..
+  231  cd uge_workshop/
+  232  git remote
+  233  cd ../sea-w27-uge/
+  234  git branch
+  235  git branch notes
+  236  git branch
+  237  git checkout notes
+  238  git branch
+  239  mkdir hollislau
+  240  ls
+  241  cd hollislau/
+  242  touch unix_notes.txt
+  243  ls
+  244  subl unix_notes.txt 
+  245  cat unix_notes.txt 
+  246  touch git_notes.txt
+  247  ls
+  248  subl git_notes.txt 
+  249  cat git_notes.txt 
+  250  clear
+  251  git add unix_notes.txt git_notes.txt 
+  252  git status
+  253  git log
+  254  git commit -m "Adding hollislau Unix and Git notes"
+  255  git status
+  256  git log
+  257  git push -u origin notes
+  258  git log -l
+  259  git log
+  260  git remote -v
+  261  cd ../..
+  262  cd uge_workshop/
+  263  git remote -v
+  264  cd
+  265  history
+  266  cd CodeFellows/uge
+  267  cd CodeFellows/uge_workshop/
+  268  git branch final_assign
+  269  git status
+  270  history > final_assign.txt
